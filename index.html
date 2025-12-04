@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6487f0a3d4.js" crossorigin="anonymous"></script>
+    <title>Module 2 Final Project</title>
+</head>
+<body class>
+    <section id="landing">
+      <nav>
+        <div class="row nav__row">
+            <div class="nav__logo">
+                <img class="nav__logo--img" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="LOGO">
+                <div class="nav__logo--title">Treact</div>
+            </div>
+            <div class="nav__links">
+                <a href="#" class="nav__link" >About</a>
+                <a href="#" class="nav__link" >Blog</a>
+                <a href="#" class="nav__link" >Pricing</a>
+                <a href="#" class="nav__link" >Contact Us</a>
+                <a href="#" class="nav__link login" >Login</a>
+                <a href="#" class="nav__link nav__link--primary" >Sign Up</a>
+            </div>
+            <button class="btn__menu" onclick="openMenu()"></button>
+        </div>
+      </nav>
+      <div class="menu">
+        <button class="btn__menu btn__menu--close" onclick="closeMenu()"></button>
+        <div class="menu_links">
+            <a href="#about" class="menu_link" onclick="menuClose()">About</a>
+            <a href="#blog" class="menu_link" onclick="menuClose()">Blog</a>
+            <a href="#pricing" class="menu_link" onclick="menuClose()">Pricing</a>
+            <a href="#contact us" class="menu_link" onclick="menuClose()">Contact Us</a>
+            <a href="#login" class="menu_link" onclick="menuClose()">Login</a>
+            <a href="#signup" class="menu_link menu_link--primary" onclick="menuClose()">Sign Up</a>
+        </div>
+      </div>
+      <header>
+        <div class="container">
+            <div class="row">
+                <div class="header_description">
+                    <h1>
+                        Beautiful React Templates <span class="purple">for you</span>
+                    </h1>
+                    <p class="header__description--para">
+                        Our templates are easy to setup, understand andcustomize. Fully modular components with a variety of pages and components.
+                    </p>
+                   <div class="header__email">
+                    <input type="text" class="header__email--input" placeholder="Your Email Address">
+                    <button class="header__email--btn">Get Started</button>
+                   </div> 
+                   <p class="header__customer--title">OUR TRUSTED CUSTOMERS</p>
+                   <img src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" class="header__customers">
+                </div>
+                <figure class="header__img--wrapper">
+                    <img src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" class="header__img">
+                </figure>
+            </div>
+        </div>
+      </header>
+    </section>
+    
+</body>
+</html>
