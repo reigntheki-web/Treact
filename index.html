@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
     <script src="https://kit.fontawesome.com/6487f0a3d4.js" crossorigin="anonymous"></script>
     <title>Module 2 Final Project</title>
 </head>
@@ -19,13 +20,12 @@
                 <a href="#" class="nav__link" >About</a>
                 <a href="#" class="nav__link" >Blog</a>
                 <a href="#" class="nav__link" >Pricing</a>
-                <a href="#" class="nav__link" >Contact Us</a>
-                <a href="#" class="nav__link login" >Login</a>
-                <a href="#" class="nav__link nav__link--primary" >Sign Up</a>
+                <a href="#" class="nav__link no-cursor" >Contact Us</a>
+                <a href="#" class="nav__link login no-cursor" >Login</a>
+                <a href="#" class="nav__link nav__link--primary no-cursor" >Sign Up</a>
             </div>
 
-            <button class="btn__menu" onclick="openMenu()"></button>
-             <button class="btn__menu" onclick="openMenu()">
+            <button class="btn__menu" onclick="openMenu()">
                 <i class="fas fa-bars"></i>
               </button>
               <div class="menu__backdrop">
@@ -34,15 +34,15 @@
         </div>
       </nav>
       <div class="menu">
-        <button class="btn__menu btn__menu--close" onclick="closeMenu()"></button>
         <div class="menu_links">
             <a href="#about" class="menu_link" onclick="menuClose()">About</a>
             <a href="#blog" class="menu_link" onclick="menuClose()">Blog</a>
             <a href="#pricing" class="menu_link" onclick="menuClose()">Pricing</a>
-            <a href="#contact us" class="menu_link" onclick="menuClose()">Contact Us</a>
-            <a href="#login" class="menu_link" onclick="menuClose()">Login</a>
-            <a href="#signup" class="menu_link menu_link--primary" onclick="menuClose()">Sign Up</a>
+            <a href="#contact us" class="menu_link no-cursor" onclick="menuClose()">Contact Us</a>
+            <a href="#login" class="menu_link no-cursor" onclick="menuClose()">Login</a>
+            <a href="#signup" class="menu_link menu_link--primary no-cursor" onclick="menuClose()">Sign Up</a>
         </div>
+        </button>
       </div>
       <header>
         <div class="container">
