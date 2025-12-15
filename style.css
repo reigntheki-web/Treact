@@ -165,7 +165,7 @@ LANDING
 
 .menu__backdrop {
     position: absolute;
-    background-color: #242424;
+    background-color: white;
     top: 0;
     left: 0;
     right: 0;
@@ -196,12 +196,13 @@ LANDING
 
 .menu__link {
     font-size: 40px;
-    color: white;
+    color: #242424;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 32px 0;
 }
 
 .btn__menu--close {
@@ -1247,11 +1248,78 @@ footer .row {
      .nav__links{
         display: none;
     }
+
+    .nav__row{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    
+    .row {
+        flex-direction: column;
+
+    }
+
+    .header__email--btn {
+        right: 110px;
+            width: 350px;
+        }
+
+    header .row {
+        flex-direction: column;
+    }
+
+    .header__customers {
+        height: 10%;
+    }
+
     .btn__menu{
         display: block;
         opacity: 1;
         z-index: 10;
+        display: flex;
+        flex-direction: row-reverse;
+
     }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+        max-width: none;
+    }
+
+    .feature__title{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .feature__para{
+         text-align: center;
+        max-width: none;
+        justify-content: center;
+    }
+
+    .features__row {
+        display: flex;
+        flex-direction: column;
+    }
+
+   .steps__img--wrapper .steps__description {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }  
+
+   .value__title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+
+
+
         .plans {
             flex-direction: column;
             justify-content: center;
@@ -1260,6 +1328,10 @@ footer .row {
 
         .plans__blob {
             opacity: 0;
+        }
+
+        .testimonial__img {
+            flex-direction: column;
         }
 
         footer {
@@ -1291,29 +1363,16 @@ footer .row {
 
         /*  SMALL PHONES, LARGE SMARTPHONES */
  @media (max-width: 468px) {
-        .header__img {
-            opacity: 0;
-        }
+        
 
         .header__email--btn {
             right: 40px;
+            width: 320px;
         }
 
         .header__email--input { 
             width: 80%;
             left: 0px;
-        }
-
-        .testimonials__img {
-            opacity: 0;
-        }
-
-        .value__img {
-            opacity: 0;
-        }
-
-        .steps__img {
-            opacity: 0;
         }
 
         .feature__img {
