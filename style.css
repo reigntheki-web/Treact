@@ -1188,7 +1188,6 @@ footer .row {
 /* SMALL PHONES, TABLETS, LARGE SNARTPHONES */
 
 @media (max-width: 1200px) {
-     @media (max-width: 1200px) {
         nav{
             height: 68px;
         }
@@ -1220,19 +1219,24 @@ footer .row {
             padding: 40px;
         }
 
-        .header__email{
-            flex-direction: column;
-        }
-
         .header__email--input {
             width: 300px;
-            left: 50px;
+            right: 60px;
         }
 
         .header__email--btn {
+            margin-top: 10px;
+            margin-left: 130px;
            top: 60px;
            width: 300px;
-           right: 115px;
+           right: 60px;
+           
+        }
+
+        .feature_row {
+            padding: 16px 8px;
+            flex-direction: column;
+            align-items: center;
         }
 
         .plans__blob {
@@ -1290,11 +1294,12 @@ footer .row {
 
     .header__email--input {
         width: 400px;
-        left: 0px;   
+        left: 40px; 
+        margin: 230px 
     }
     .header__email--btn {
-        right: 260px;
         width: 400px;
+        right: 255px;
     }
     
 
@@ -1337,7 +1342,7 @@ footer .row {
         flex-direction: column;
     }
 
-
+     
 
    .steps__img--wrapper .steps__description {
       width: 100%;
@@ -1349,7 +1354,7 @@ footer .row {
    .value__title {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
    }
 
 .feature__img {
@@ -1359,6 +1364,7 @@ footer .row {
 .feature__img--wrapper {
     padding: 8px;
     right: 555px;
+    opacity: 1;
 }
 
         .plans {
@@ -1400,23 +1406,23 @@ footer .row {
         .footer__socials {
             padding: 2px;
         }
-        }
+    }
 
         /*  SMALL PHONES, LARGE SMARTPHONES */
  @media (max-width: 768px) {
         .row {
             flex-direction: column;
         }
-        }
+       
 
         .header__email--btn {
-            right: 40px;
+            right: 130px;
             width: 320px;
         }
 
         .header__email--input { 
             width: 320px;
-            left: 150px;
+            left: 15px;
         }
 
         .feature__img {
@@ -1425,7 +1431,8 @@ footer .row {
         }
         .feature__img--wrapper {
             right: 450px;
-        
+            opacity: 1;
+        }
 
         .quality__description {
             margin-bottom: 16px;
@@ -1470,10 +1477,10 @@ footer .row {
 
     .header__email--input { 
         width: 320px;
-        left: 30px;
     }
+
     .header__email--btn {
-        right: 0px;
+        left: 120px;
         width: 320px;
     }
 
@@ -1516,4 +1523,3 @@ footer .row {
 }
 
 
-}
