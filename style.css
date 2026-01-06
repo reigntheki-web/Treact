@@ -1471,10 +1471,7 @@ footer .row {
         align-items: end;
     }
 
-    .nav__row {
-        align-items: center;
-        
-    }
+    
 
     .header__email--btn {
         left: 18px;
@@ -1584,7 +1581,13 @@ footer .row {
         align-items: center;
         justify-content: center;
     }
+    
+    .section__title{
+        font-size: 32px;
+    }
 
-
+    .quality__description{
+        max-width: 70%;
+    }
 }
 
