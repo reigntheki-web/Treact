@@ -89,6 +89,7 @@ LANDING
     margin: 8px 0;
     padding-bottom: 4px;
     margin-top: 60px;
+    
 }
 
 .nav__logo--img {
@@ -164,7 +165,11 @@ LANDING
     text-align: center;
     border: none;
     color: #8b1b96;
-    display: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 00px;
 }
 
 .menu__backdrop {
@@ -383,6 +388,7 @@ FEATURES
     width: 50px;
     height: 50px;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .feature__img {
@@ -507,6 +513,7 @@ STEPS
 .steps__img {
     z-index: 2;
     width: 110%
+    
 }
 
 .steps__grid {
@@ -524,6 +531,7 @@ STEPS
 .steps__description {
     padding: 32px;
     padding-left: 64px;
+    margin-left: 20px;
 }
 
 .step {
@@ -893,6 +901,7 @@ TESTIMONIALS
 .testimonials__img {
     width: 100%;
     max-width: 50%;
+    margin-right: 20px;
 }
 
 .testimonial__title {
@@ -1330,6 +1339,14 @@ footer .row {
         flex-direction: row;
     }
 
+    .nav__logo{
+      justify-content: space-between;
+      margin-right: 70px;
+      margin-left: 70px;
+    }
+
+    
+
     .row{
         flex-direction: column;
     }
@@ -1397,6 +1414,10 @@ footer .row {
         flex-direction: column;
     }
 
+    .quality__description {
+        margin-bottom: 20px;
+    }
+
    .steps__img--wrapper .steps__description {
       width: 100%;
       flex-direction: column;
@@ -1408,6 +1429,10 @@ footer .row {
         display: flex;
         flex-direction: column;
         align-items: start;
+   }
+
+   .value__img--wrapper{
+    margin-bottom: 8px;
    }
 
 
